@@ -343,15 +343,15 @@ h1, h2, h3, h4, h5, h6, figure {
     margin: 0 auto;
   }
 }
-#fpgportfolio-header .display-tc .btn.btn-learn,
-.fpgportfolio-cover .display-tc .btn.btn-learn {
+#fpgportfolio-header .display-tc .btn.btn-resume,
+.fpgportfolio-cover .display-tc .btn.btn-resume {
   background: #fee856;
   border: none;
   color: #000 !important;
 }
-#fpgportfolio-header .display-tc .btn.btn-learn:hover, #fpgportfolio-header .display-tc .btn.btn-learn:focus,
-.fpgportfolio-cover .display-tc .btn.btn-learn:hover,
-.fpgportfolio-cover .display-tc .btn.btn-learn:focus {
+#fpgportfolio-header .display-tc .btn.btn-resume:hover, #fpgportfolio-header .display-tc .btn.btn-resume:focus,
+.fpgportfolio-cover .display-tc .btn.btn-resume:hover,
+.fpgportfolio-cover .display-tc .btn.btn-resume:focus {
   background: rgba(254, 232, 86, 0.9) !important;
   color: #000 !important;
 }
@@ -360,14 +360,14 @@ h1, h2, h3, h4, h5, h6, figure {
 .fpgportfolio-cover .display-tc .btn:focus {
   color: #fff !important;
 }
-#fpgportfolio-header .display-tc .btn.btn-demo,
-.fpgportfolio-cover .display-tc .btn.btn-demo {
+#fpgportfolio-header .display-tc .btn.btn-contact,
+.fpgportfolio-cover .display-tc .btn.btn-contact {
   background: #dd356e;
   border: none;
 }
-#fpgportfolio-header .display-tc .btn.btn-demo:hover, #fpgportfolio-header .display-tc .btn.btn-demo:focus,
-.fpgportfolio-cover .display-tc .btn.btn-demo:hover,
-.fpgportfolio-cover .display-tc .btn.btn-demo:focus {
+#fpgportfolio-header .display-tc .btn.btn-contact:hover, #fpgportfolio-header .display-tc .btn.btn-contact:focus,
+.fpgportfolio-cover .display-tc .btn.btn-contact:hover,
+.fpgportfolio-cover .display-tc .btn.btn-contact:focus {
   background: rgba(221, 53, 110, 0.9) !important;
   color: #fff !important;
 }
@@ -685,6 +685,12 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 18px;
   line-height: 1.5;
   color: #828282;
+}
+.fpgportfolio-heading-strengths {
+  margin-bottom: 3em;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000;
 }
 .fpgportfolio-heading span {
   display: block;
