@@ -303,6 +303,23 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell !important;
   vertical-align: middle;
 }
+
+#fpgportfolio-header .text-center .heading,
+.fpgportfolio-cover .text-center .heading{
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .fpgportfolio-cover .text-center .heading {
+    height: 400px;
+  }
+}
+
 #fpgportfolio-header .display-tc h1, #fpgportfolio-header .display-tc h2,
 .fpgportfolio-cover .display-tc h1,
 .fpgportfolio-cover .display-tc h2 {
@@ -856,7 +873,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
 }
 .fpgportfolio-portfolio > a:hover {
-  webkit-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
   box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
 }
