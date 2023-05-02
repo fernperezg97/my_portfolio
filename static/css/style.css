@@ -97,6 +97,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-weight: 700;
   font-family: "Inconsolata", Arial, sans-serif;
+  /* background-color: #5bc0de; */
 }
 .fpgportfolio-nav #fpgportfolio-logo a span {
   color: #DD356E;
@@ -306,11 +307,13 @@ h1, h2, h3, h4, h5, h6, figure {
   /* background-color: #4cae4c; */
 }
 
-/* #fpgportfolio-header .text-center.memoji .heading .img-fluid,
-.fpgportfolio-cover .text-center.memoji .heading .img-fluid {
-  max-width: 100%;
-  height: auto;
-} */
+#fpgportfolio-header .text-center .heading .memoji,
+.fpgportfolio-cover .text-center .heading .memoji {
+  /* max-width: 100%; */
+  margin-top: 5%;
+  width: 25%;
+  /* background-color: #5bc0de; */
+}
 
 @media screen and (max-width: 768px) {
   .fpgportfolio-cover .text-center .heading {
@@ -1134,7 +1137,7 @@ input[type="text"] {
   position: absolute;
   right: 0px;
   font-family: 'icomoon';
-  speak: none;
+  /* speak: none; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
