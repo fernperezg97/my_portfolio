@@ -691,7 +691,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fpgportfolio-heading {
-  margin-bottom: 5em;
+  margin-bottom: 1em;
+  /* background-color: #46b8da; */
 }
 .fpgportfolio-heading.fpgportfolio-heading-sm {
   margin-bottom: 2em;
@@ -705,7 +706,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fpgportfolio-heading p {
   font-size: 18px;
   line-height: 1.5;
-  color: #828282;
+  color: #000;
 }
 .fpgportfolio-heading-strengths {
   margin-bottom: 3em;
