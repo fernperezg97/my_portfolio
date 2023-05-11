@@ -655,6 +655,9 @@ h1, h2, h3, h4, h5, h6, figure {
     padding: 3em 0;
   }
 }
+#fpgportfolio-about .animate-box {
+  margin-bottom: 5em;
+}
 
 #fpgportfolio-content {
   border-bottom: 2px solid rgba(221, 53, 110, 0.1);
@@ -708,6 +711,7 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 1.5;
   color: #000;
 }
+
 .fpgportfolio-heading-strengths {
   margin-bottom: 3em;
   font-size: 18px;
