@@ -42,6 +42,8 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<link rel="stylesheet" href="/static/css/alert.css">
+
 	</head>
 	<body>
 		
@@ -102,26 +104,33 @@
 					</div> -->
 					<div class="col-md-8 col-md-push-2 animate-box">
 						<div class="row">
-							<div class="col-md-6">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Name">
+							<form action="{{ url_for('contact_me')}}" method="post">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" name="inquirer_name" class="form-control" placeholder="Name">
+									</div>
 								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Email">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" name="inquirer_email"class="form-control" placeholder="Email">
+									</div>
 								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+								<div class="col-md-12">
+									<div class="form-group">
+										<textarea name="inquirer_message" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+									</div>
 								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<input type="submit" value="Send Message" class="btn btn-primary">
+								<div class="col-md-12">
+									<div class="form-group">
+										<input type="submit" value="Send Message" class="btn btn-primary" onclick="Swal.fire({
+											position: 'center',
+											icon: 'success',
+											title: 'Your message has been sent!',
+											showConfirmButton: false,
+										  })">
+									</div>
 								</div>
-							</div>
+							</form>
 						</div>
 					</div>
 				</div>
@@ -133,9 +142,9 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fpgportfolio-heading">
-					<h2>Hire Us!</h2>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-					<p><a href="#" class="btn btn-default btn-lg">Contact Us</a></p>
+					<h2>Hire Me!</h2>
+					<p>I'd love to join your team and work on cool things together.</p>
+					<p><a href="/contact" class="btn btn-default btn-lg">Contact</a></p>
 				</div>
 			</div>
 		</div>
@@ -200,6 +209,7 @@
 	<script src="static/js/magnific-popup-options.js"></script>
 	<!-- Main -->
 	<script src="static/js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 	</body>
 </html>
