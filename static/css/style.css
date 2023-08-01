@@ -10,6 +10,10 @@
 * 	Template Style 
 *
 * ======================================================= */
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Inconsolata", Arial, sans-serif;
   font-weight: 400;
@@ -105,6 +109,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fpgportfolio-nav a {
   padding: 5px 10px;
   color: #000;
+  font-size: 1.5vw;
 }
 @media screen and (max-width: 768px) {
   .fpgportfolio-nav .menu-1 {
@@ -122,7 +127,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline;
 }
 .fpgportfolio-nav ul li a {
-  font-size: 18px;
+  font-size: 1vw;
   padding: 30px 15px;
   color: rgba(0, 0, 0, 0.7);
   -webkit-transition: 0.5s;
@@ -309,9 +314,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fpgportfolio-header .text-center .heading .memoji,
 .fpgportfolio-cover .text-center .heading .memoji {
-  /* max-width: 100%; */
+  max-width: 100%;
   margin-top: 5%;
-  width: 25%;
+  /* width: 25%; */
   /* background-color: #5bc0de; */
 }
 
@@ -463,11 +468,11 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fpgportfolio-features .feature-left h3 {
-  font-size: 24px;
+  font-size: 1.5vw;
   font-weight: 400;
 }
 #fpgportfolio-features .feature-left p {
-  font-size: 15px;
+  font-size: .8vw;
 }
 #fpgportfolio-features .feature-left p:last-child {
   margin-bottom: 0;
@@ -535,7 +540,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 #fpgportfolio-slider .heading h2 {
-  font-size: 40px;
+  font-size: 3vw;
 }
 #fpgportfolio-slider .heading p {
   font-style: 22px;
@@ -701,23 +706,27 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 2em;
 }
 .fpgportfolio-heading h2 {
-  font-size: 40px;
+  font-size: 3vw;
   margin-bottom: 20px;
   line-height: 1.5;
   color: #000;
 }
 .fpgportfolio-heading p {
-  font-size: 18px;
+  font-size: 1vw;
   line-height: 1.5;
   color: #000;
 }
 
 .fpgportfolio-heading-strengths {
   margin-bottom: 3em;
-  font-size: 18px;
+  font-size: 1vw;
   line-height: 1.5;
   color: #000;
 }
+.fpgportfolio-heading-strengths h2 {
+  font-size: 3vw;
+}
+
 .fpgportfolio-heading span {
   display: block;
   margin-bottom: 10px;
@@ -832,7 +841,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fpgportfolio-blog .blog-text span {
   display: inline-block;
   margin-bottom: 20px;
-  font-size: 14px !important;
+  font-size: .8vw;
   color: rgba(0, 0, 0, 0.3);
 }
 .fpgportfolio-blog .blog-text .stuff {
@@ -857,11 +866,11 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-left: 10px;
 }
 .fpgportfolio-blog .blog-text .stuff li i {
-  font-size: 14px;
+  font-size: .8vw;
   padding-right: 5px;
 }
 .fpgportfolio-blog .blog-text h3 {
-  font-size: 24px;
+  font-size: 2vw;
   margin-bottom: 20px;
   line-height: 1.5;
 }
