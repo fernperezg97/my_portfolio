@@ -314,13 +314,19 @@ h1, h2, h3, h4, h5, h6, figure {
   /* background-color: #4cae4c;÷\ */
 }
 
-#fpgportfolio-header .text-center .heading .memoji,
+#fpgportfolio-header .text-center .conatiner .heading .memoji,
 .fpgportfolio-cover .text-center .heading .memoji {
-  max-width: 100%;
-  margin-top: 5%;
-  /* margin: 1%; */
-  /* background-color: #5bc0de; */
+  width: 30%;
+  height: 30%;
 }
+
+/* #fpgportfolio-header .text-center .heading .memoji,
+.fpgportfolio-cover .text-center .heading .memoji {
+  width: 100%;
+  height: auto;
+} */
+
+
 
 @media screen and (max-width: 768px) {
   .fpgportfolio-cover .text-center .heading {
