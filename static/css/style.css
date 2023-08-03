@@ -95,9 +95,8 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 28px 0;
 }
 .fpgportfolio-nav #fpgportfolio-logo {
-  font-size: 32px;
+  font-size: 3rem;
   margin: 0;
-  padding-left: 40%;
   text-transform: uppercase;
   font-weight: 700;
   font-family: "Inconsolata", Arial, sans-serif;
@@ -105,10 +104,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fpgportfolio-nav #fpgportfolio-logo a span {
   color: #DD356E;
+  /* background-color: #4cae4c; */
 }
 .fpgportfolio-nav a {
   padding: 5px 10px;
   color: #000;
+  /* background-color: #5bc0de; */
 }
 @media screen and (max-width: 768px) {
   .fpgportfolio-nav .menu-1 {
@@ -118,15 +119,17 @@ h1, h2, h3, h4, h5, h6, figure {
 .fpgportfolio-nav ul {
   padding: 0;
   margin: 5px 0 0 0;
+  /* background-color: #4cae4c; */
 }
 .fpgportfolio-nav ul li {
   padding: 0;
   margin: 0;
   list-style: none;
   display: inline;
+  /* background-color: #4cae4c; */
 }
 .fpgportfolio-nav ul li a {
-  font-size: 1vw;
+  font-size: 2.5rem;
   padding: 30px 15px;
   color: rgba(0, 0, 0, 0.7);
   -webkit-transition: 0.5s;
@@ -467,11 +470,11 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fpgportfolio-features .feature-left h3 {
-  font-size: 1.5vw;
+  font-size: 3.5rem;
   font-weight: 400;
 }
 #fpgportfolio-features .feature-left p {
-  font-size: .8vw;
+  font-size: 2rem;
 }
 #fpgportfolio-features .feature-left p:last-child {
   margin-bottom: 0;
@@ -539,10 +542,10 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 #fpgportfolio-slider .heading h2 {
-  font-size: 3vw;
+  font-size: 7rem;
 }
 #fpgportfolio-slider .heading p {
-  font-style: 22px;
+  font-size: 2.5rem;
 }
 
 #fpgportfolio-hero {
@@ -628,6 +631,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   min-height: 500px;
+  /* background-color: #4cae4c; */
 }
 
 .fpgportfolio-bg-section {
@@ -705,25 +709,33 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 2em;
 }
 .fpgportfolio-heading h2 {
-  font-size: 3vw;
+  font-size: 7rem;
   margin-bottom: 20px;
   line-height: 1.5;
   color: #000;
 }
 .fpgportfolio-heading p {
-  font-size: 1vw;
+  font-size: 2.5rem;
   line-height: 1.5;
   color: #000;
+  /* background-color: #5cb85c; */
 }
 
 .fpgportfolio-heading-strengths {
   margin-bottom: 3em;
-  font-size: 1vw;
+  /* font-size: 5rem; */
   line-height: 1.5;
   color: #000;
+  /* background-color: #4cae4c; */
 }
 .fpgportfolio-heading-strengths h2 {
-  font-size: 3vw;
+  font-size: 7rem;
+  /* background-color: #4cae4c; */
+}
+
+.fpgportfolio-heading-strengths p {
+  font-size: 2.5rem;
+  /* background-color: #46b8da; */
 }
 
 .fpgportfolio-heading span {
@@ -757,9 +769,13 @@ h1, h2, h3, h4, h5, h6, figure {
 #fpgportfolio-started .fpgportfolio-heading h2 {
   color: #fff;
   margin-bottom: 20px !important;
+  /* background-color: #5bc0de; */
+  font-size: 7rem;
 }
 #fpgportfolio-started .fpgportfolio-heading p {
   color: rgba(255, 255, 255, 0.8);
+  font-size: 2.5rem;
+  /* background-color: #4cae4c; */
 }
 #fpgportfolio-started .btn {
   height: 54px;
@@ -840,7 +856,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fpgportfolio-blog .blog-text span {
   display: inline-block;
   margin-bottom: 20px;
-  font-size: .8vw;
+  font-size: 2rem;
   color: rgba(0, 0, 0, 0.3);
 }
 .fpgportfolio-blog .blog-text .stuff {
@@ -865,13 +881,15 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-left: 10px;
 }
 .fpgportfolio-blog .blog-text .stuff li i {
-  font-size: .8vw;
+  font-size: 2rem;
   padding-right: 5px;
+  /* background-color: #4cae4c; */
 }
 .fpgportfolio-blog .blog-text h3 {
-  font-size: 2vw;
+  font-size: 3rem;
   margin-bottom: 20px;
   line-height: 1.5;
+  /* background-color: #46b8da; */
 }
 .fpgportfolio-blog .blog-text h3 a {
   color: black;
