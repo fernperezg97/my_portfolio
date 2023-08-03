@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fpgportfolio-nav #fpgportfolio-logo {
   font-size: 32px;
   margin: 0;
-  padding: 0;
+  padding-left: 40%;
   text-transform: uppercase;
   font-weight: 700;
   font-family: "Inconsolata", Arial, sans-serif;
@@ -109,7 +109,6 @@ h1, h2, h3, h4, h5, h6, figure {
 .fpgportfolio-nav a {
   padding: 5px 10px;
   color: #000;
-  font-size: 1.5vw;
 }
 @media screen and (max-width: 768px) {
   .fpgportfolio-nav .menu-1 {
@@ -306,17 +305,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fpgportfolio-header .display-tc,
 .fpgportfolio-cover .display-tc {
-  margin-top: 10%;
+  /* margin-top: 10%; */
   display: table-cell !important;
   vertical-align: middle;
-  /* background-color: #4cae4c; */
+  /* background-color: #4cae4c;÷\ */
 }
 
 #fpgportfolio-header .text-center .heading .memoji,
 .fpgportfolio-cover .text-center .heading .memoji {
   max-width: 100%;
   margin-top: 5%;
-  /* width: 25%; */
+  /* margin: 1%; */
   /* background-color: #5bc0de; */
 }
 
@@ -330,7 +329,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fpgportfolio-cover .display-tc h1,
 .fpgportfolio-cover .display-tc h2 {
   margin: 0;
-  padding: 0;
+  /* margin: 1%; */
   color: black;
   /* background-color: #4cae4c; */
 }
@@ -338,7 +337,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fpgportfolio-cover .display-tc h1 {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 54px;
+  font-size: 8rem;
   line-height: 1.3;
   font-weight: 300;
   /* background-color: #828282; */
@@ -351,7 +350,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fpgportfolio-header .display-tc h2,
 .fpgportfolio-cover .display-tc h2 {
-  font-size: 20px;
+  font-size: 3rem;
   line-height: 1.5;
   margin-bottom: 30px;
 }
@@ -360,7 +359,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 15px 30px;
   color: #fff;
   border: none !important;
-  font-size: 18px;
+  font-size: 3rem;
 }
 @media screen and (max-width: 768px) {
   #fpgportfolio-header .display-tc .btn,
