@@ -22,4 +22,4 @@ The live version of this portfolio website is deployed at https://fpg.pythonanyw
 - [animate.css](http://daneden.me/animate)
 - [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
 - [Flexslider](http://flexslider.woothemes.com/)
-- FreeHTML5co
+- FreeHTML5.co
