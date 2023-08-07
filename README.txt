@@ -35,5 +35,3 @@ http://unsplash.com
 
 Flexslider
 http://flexslider.woothemes.com/
-
-freehtml5.co
