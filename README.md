@@ -3,8 +3,8 @@
 ## Intro
 This website is designed to showcase my personal projects, skills, and experience in an elegant and interactive manner. No, it's not perfect, but as my learning evolves so will this portfolio! 😉
 
-## Deployment
-The live version of this portfolio website is deployed at https://fpg.pythonanywhere.com/. You can access it directly to see the website in action. 🌐
+## Deployment 🌐
+The live version of this portfolio website is deployed at https://fpg.pythonanywhere.com/. You can access it directly to see the website in action. 
 
 ## Technologies Used 💻
 - Python (including Python's `smtplib` module, which defines an SMTP client session object that can be used to send mail to any Internet machine with an SMTP or ESMTP listener daemon.)
